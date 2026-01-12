@@ -1,5 +1,10 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
 
 
 body{
@@ -17,9 +22,6 @@ h1, h2, h3{
     text-align: center;
 }
     
-
-
-
 
 
 h1{
@@ -42,13 +44,78 @@ p{
     font-size: 16px;
     border-radius: 8px;
     padding: 15px 30px;
+    display: inline-block;
 }
 .btn-primary:link,
 .btn-primary:visited{
     color: #ffffff;
     background-color: #339AF0;
     border: 2px solid #339AF0;
+   
 }
+
+.btn-primary:hover,
+.btn-primary:active {
+    color :#ffffff;
+    background-color : #339AF0;
+    border: 2px solid #339AF0;
+}
+.btn-primary:hover,
+.btn-primary:active {
+    color :#ffffff;
+    background-color : #1c7ed6;
+    border: 2px solid #1c7ed6;
+}
+
+    .btn-primary-outline:link,
+    .btn-primary-outline:visited {
+    color :#339AF0;
+    background-color : #ffffff;
+    border: 2px solid #339AF0;
+}
+
+    .btn-primary-outline:hover, .btn-primary-outline:active {
+        color: #1c7ed6;
+        background-color: #ffffff;
+        border: 2px solid #1c7ed6;
+    }
+
+    .btn-secondary:link, .btn-secondary:visited {
+        color:#ffffff;
+        background-color: #9775fa;
+        border: 2px solid #9975fa;
+    }
+    .btn-secondary:hover, .btn-secondary:active {
+        color:#ffffff;
+        background-color: #7048e8
+    }
+
+    .highlight {
+        color:#ffffff;
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+
+    .highlight-primary{
+        background-color: #339AF0
+    }
+
+    .highlight-secondary {
+        background: #9775fa;
+    }
+
+    .highlight-tertiary{
+        background-color: #ff922b;
+    }
+
+    logo-md{
+        width: 100px;
+    }
+
+    logo-md{
+        width: 80px;
+    }
+
 ul{
     list-style: none;
 }
@@ -66,3 +133,109 @@ footer{
 footer p{
     font-size: 12px;
 }
+
+/*========SECTIONS=======*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*========HERO SECTIONS=======*/
+.hero-section{
+    text-align: center;
+    margin-bottom: 300px;
+}
+.HERO-HEADING {
+    margin-bottom: 10px;
+}
+
+.hero-paragraph{
+    margin-bottom: 50px;
+}
+
+/*========FEAATURE SECTION====*/
+
+.feature-section{
+    margin-bottom: 300px;
+}
+
+.feature-main-heading{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+feature-img{
+    width: 400px;
+}
+
+/* ========CTA SECTION=======*/
+.cta-card{
+    width: 1000px;
+    background-color: #339AF0;
+    padding: 100px 200px;
+    border-radius: 20px;
+    text-align: center;
+}
+    
+    /* 
+
+    ---------- TYPOGRAPHY ----------
+    
+    FONT SIZES
+    12px / 16px / 20px / 24px / 32px / 40px / 48px / 62px
+    
+    FONT WEIGHTS
+    400 / 700
+    
+    LINE HEIGHTS
+    1.2 / 1.5
+    
+    LETTER SPACING
+    0 / -2px
+    
+    FONT FAMILY
+    Inter
+    
+    ---------- COLORS ----------
+    
+    PRIMARY
+    Base: #339af0 (Sky Blue)
+    Tint: #d0ebff (Arctic)
+    Shade: #1c7ed6 (Deep Sea)
+    
+    SECONDARY
+    Base: #9775fa (Lavendar)
+    Tint: #e5dbff (Moonligh Iris)
+    Shade: #7048e8 (Velvet Night)
+    
+    TERTIARY
+    Base: #ff922b (Pumpkin)
+    Tint: #ffe8cc (Dawn)
+    Shade: #f76707 (Lava)
+    
+    GREY
+    Base: #495057 (Slate)
+    Tint: #f1f3f5 (Pebble)
+    Shade: #212529 (Graphite)
+    White: #ffffff (White)
+    Black: #000000 (Black)
+    
+    ---------- BORDER RADIUS ----------
+    
+    4px / 8px / 20px
+    
+    ---------- SPACING SYSTEM ----------
+    
+    5px / 10px / 15px / 20px / 25px / 30px / 40px / 50px / 60px / 70px / 80px / 90px / 100px / 125px / 150px / 200px / 250px / 300px / 400px / 500px
+    
+    */
+
+
+
+
+
+
+
+
+
